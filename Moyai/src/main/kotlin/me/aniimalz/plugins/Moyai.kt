@@ -47,7 +47,7 @@ class Moyai : Plugin() {
                             .setUsage(AudioAttributes.USAGE_MEDIA)
                             .build()
                     )
-                    setDataSource("https://github.com/ItzOnlyAnimal/AliuPlugins/raw/main/boom.ogg")
+                    setDataSource("https://github.com/Pineappman3102/AliuPlugins/raw/main/sus.ogg")
                     prepare()
                     start()
                 }
