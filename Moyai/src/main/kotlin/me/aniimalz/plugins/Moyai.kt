@@ -1,4 +1,4 @@
-package me.aniimalz.plugins
+package me.pinecode.plugins
 
 import android.content.Context
 import android.media.AudioAttributes
@@ -16,7 +16,7 @@ import com.discord.stores.StoreStream
 import rx.Subscription
 
 @AliucordPlugin
-class Moyai : Plugin() {
+class Mogus : Plugin() {
     private var observable: Subscription? = null
     override fun start(ctx: Context) {
         patcher.after<StoreMessageReactions>(
